@@ -1,0 +1,22 @@
+name: LifeSteal
+version: '1.0'
+main: com.ytg667.main.Main
+api-version: 1.19
+permissions:
+  giveHearts:
+    description: Gives access to give hearts
+    default: op
+  reloadConfig:
+    description: Permission to use the command /reloadConfig
+    default: op
+commands:
+  giveHearts:
+    description: Gives heart essence to a player!
+    usage: /<command> <amount> <player>
+  withdraw:
+    description: Withdraws hearts from a player!
+    usage: /<command> <hearts>
+  reloadConfig:
+    description: Reloads the config file!
+    usage: /<command>
+
